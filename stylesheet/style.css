@@ -1,0 +1,181 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
+/* header */
+
+header {
+  background: #000;
+  color: white;
+  padding: 10px 0;
+}
+
+
+/* main */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileimage {
+  border-radius: 30%;
+  margin-top: 30px;
+}
+
+.career {
+  text-align: center;
+}
+
+.brief {
+  text-align: left;
+  display: inline-block;
+  line-height: 2em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.careerdetail:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+ 
+.menta:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.work:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.blog:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.careerdetail {
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.menta {
+  border-radius: 15px;
+  background-color: green ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.work {
+  border-radius: 15px;
+  background-color: blue ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.blog {
+  border-radius: 15px;
+  background-color: green ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.sns {
+  text-align: center;
+}
+
+.snslinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.snslink {
+  margin-right: 20px;
+  font-size: 1.5em;
+}
+
+.salon {
+  border-radius: 15px;
+  background-color: yellowgreen ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.submitbtn {
+  border-radius: 15px;
+  background-color: blue ;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+  background: gray;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* large screen */
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  .links {
+    display: inline;
+    text-align: center;
+  }
+}
+
+/* medium screen */
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  .links {
+    display: inline;
+    text-align: center;
+  }
+}
+
+/* small screen */
+@media screen and (min-width: 960px) {
+  img {
+    max-width: 960px;
+  }
+}
