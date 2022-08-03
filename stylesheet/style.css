@@ -177,25 +177,30 @@ footer {
   padding: 20px 0;
 }
 
-/* large screen */
-@media screen and (max-width: 959px) {
-	/* 959px以下に適用されるCSS（タブレット用） */
-  .links {
-    display: inline;
-    text-align: center;
+/* small screen */
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .container {
+    width: 250px;
+  }
+
+  .container>.menu {
+    width: 10%;
   }
 }
 
 /* medium screen */
-@media screen and (max-width: 480px) {
-	/* 480px以下に適用されるCSS（スマホ用） */
-  .links {
-    display: inline;
-    text-align: center;
-  }
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるCSS（タブレット用） */
+  
 }
 
-/* small screen */
+/* large screen */
 @media screen and (min-width: 960px) {
   img {
     max-width: 960px;
