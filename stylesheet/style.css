@@ -16,9 +16,57 @@ header {
 /* main */
 
 .container {
+  margin: 30px auto;
+  width: 500px;
+}
+
+.item {
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.menu li a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.menu li a.active {
+  background: #333;
+  color: #fff;
+}
+
+.menu li a:not(.active):hover {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
+
+.content.active {
+  background: #333;
+  color: #fff;
+  min-height: 150px;
+  padding: 12px;
+  display: block;
+}
+
+.content {
+  display: none;
+}
+
+section > div {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .profileimage {
@@ -46,6 +94,10 @@ header {
   margin-right: 10px;
 }
 
+.link a {
+  text-decoration: none;
+}
+
 .careerdetail:hover {
   opacity: 0.7;
   cursor: pointer;
@@ -66,40 +118,10 @@ header {
   cursor: pointer;
 }
 
-.careerdetail {
+button {
   border-radius: 15px;
-  background-color: blue;
-  color: white;
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  margin-bottom: 20px;
-}
-
-.menta {
-  border-radius: 15px;
-  background-color: green ;
-  color: white;
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  margin-bottom: 20px;
-}
-
-.work {
-  border-radius: 15px;
-  background-color: blue ;
-  color: white;
-  font-weight: bold;
-  height: 50px;
-  width: 150px;
-  margin-bottom: 20px;
-}
-
-.blog {
-  border-radius: 15px;
-  background-color: green ;
-  color: white;
+  background-color: white;
+  color: #333;
   font-weight: bold;
   height: 50px;
   width: 150px;
