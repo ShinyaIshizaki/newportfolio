@@ -16,12 +16,23 @@ header {
 
 /* main */
 
-.container {
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 50px;
+  padding: 10px;
+  border: #000 solid 1px;
+}
+
+.container2 {
   margin: 30px auto;
   width: 100%;
 }
 
-.item {
+.topImage {
   text-align: center;
 }
 
@@ -86,7 +97,7 @@ section > div {
   width: 100%;
 }
 
-.brief>h3 {
+h3 {
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -162,10 +173,6 @@ button {
   margin-bottom: 20px;
 }
 
-li {
-  list-style: none;
-}
-
 .submitbtn {
   border-radius: 15px;
   background-color: blue ;
@@ -191,6 +198,11 @@ footer {
   img {
     width: 50%;
     height: 50%;
+  }
+
+  .container1 {
+    display: block;
+    margin: 0 auto;
   }
 }
 
