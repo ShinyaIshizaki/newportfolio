@@ -15,10 +15,14 @@ header {
 
 
 /* main */
+.cobolscreenshot {
+  width: 90%;
+  height: 90%;
+}
 
 .container1 {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .item {
