@@ -9,18 +9,24 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-  <header>
+  <header id="header">
     <h1>Shinya Ishizaki&#39;s Portfolio</h1>
   </header>
+  <div class="menus">   
+    <div class="menu"><a href="#brief">Carreer Brief</a></div>
+    <div class="menu"><a href="#works">Works</a></div>
+    <div class="menu"><a href="#contacts">Contacts</a></div>
+  </div>
   <div class="topImage">
     <img src="./img/icon.jpg", alt="プロフィール写真", class="profileimage">
   </div>
   <div class="career">
     <h2>石崎慎弥<br>(いしざきしんや)</h2>
     <h2>Engineer</h2>
+    <h2>1988年東京都練馬区生まれ／東京・埼玉育ち</h2>
   </div>
-  <div class="brief">
-    <h3>職務略歴</h3>
+  <div class="brief" id="brief">
+    <h3>Carreer brief</h3>
     <h4>大学卒業後、独立系SIerと受託会社で勤務し、<br>
       <ul>
         <li>損害保険会社向け営業店・代理店システム保守開発（自動車保険分野）</li>
@@ -31,7 +37,7 @@
       Web系エンジニアとして活動するとともに、プログラミング初心者のメンターとしてエンジニアの育成にも力を入れる。
     </h4>
   </div>
-  <div class="works">
+  <div class="works" id="works">
     <h3>Works</h3>
     <div class="container1">
       <div class="item">業務システム開発
@@ -67,7 +73,7 @@
         <img src="./img/img_1on1.jpg" alt="COBOLの実行画面コピー" class="cobolscreenshot">
       </div>
     </div>
-  <div class="contacts">
+  <div class="contacts" id="contacts">
     <div class="container2">
       <h3>Contacts</h3>
       <ul class="menu">
@@ -138,7 +144,12 @@
       </div>
     </div>
     <footer>
-      <small>(c)shinyaishizaki.com</small>
+      <div>
+        <small>(c)shinyaishizaki.com</small>
+      </div>
+      <div>
+        <a href="#header">ページ先頭へ</a>
+      </div>
     </footer>
 
     <script src="js/main.js"></script>
