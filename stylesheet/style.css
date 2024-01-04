@@ -201,6 +201,15 @@ button {
   margin-bottom: 20px;
 }
 
+.topImage {
+  text-align: left;
+}
+
+.imgIcon {
+  width: 10%;
+  height: 10%;
+}
+
 /* footer */
 
 footer {
