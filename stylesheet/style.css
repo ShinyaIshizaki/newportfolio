@@ -17,6 +17,10 @@ header {
   text-align: center;
 }
 
+.headerTable {
+  display: grid;
+}
+
 .menus {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
