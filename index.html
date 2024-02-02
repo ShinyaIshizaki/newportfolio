@@ -17,16 +17,18 @@
           <h1>Shinya Ishizaki&#39;s Website</h1>
         </td>
         <td>
-          <menu type="toolbar">…</menu>
+          <!-- <menu type="toolbar" id="threePointLeaderId" class="threePointLeader visible">…</menu> -->
+          <button type="button" id="threePointLeaderId" class="threePointLeader visible">...</button>
         </td>
         <td>
-          Login
+          <p class="invisible">Login</p>
         </td>
         <td>
-          <form method="post">
-            <input type="text" name="userid" id="userid">
-            <input type="password" name="userpassword" id="userpassword">
-            <input type="submit" value="Login" id="login">
+          <form action="confirm_login.html" method="post">
+          <!-- <form onsubmit="confirm_login.html" method="post"> -->
+            <input type="text" name="userId" id="userId" class="invisible" required>
+            <input type="password" name="userPassword" id="userPassword" class="invisible" required>
+            <input type="submit" value="Login" id="loginSubmit" class="invisible">
           </form>
         </td>
       </tr>

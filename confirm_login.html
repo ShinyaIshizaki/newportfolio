@@ -7,6 +7,13 @@
 </head>
 <body>
   <h1>Confirm</h1>
-  <p>User ID: ${userId}</p>
+  <!-- ボタンがクリックされたらトップ画面に戻る -->
+  <form action="index.html" method="post">
+    <!-- postから取得してUser IDを表示する -->
+    <p>User ID: </p>
+    <p><input type="submit" name="submit" id="submitConfirm" value="Confirm"></p>
+  </form>
+    
+  <script src="js/main.js"></script>
 </body>
 </html>

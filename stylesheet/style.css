@@ -28,6 +28,14 @@ header {
   place-items: center center;
 }
 
+.visible {
+  display: grid;
+}
+
+.invisible {
+  display: none;
+}
+
 /* main */
 
 .cobolscreenshot {
